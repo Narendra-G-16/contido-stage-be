@@ -1,4 +1,4 @@
-
+def call() {
 def notifyBuild(String buildStatus = 'STARTED') {
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
   def jobUserId, jobUserName
@@ -37,4 +37,5 @@ def notifyBuild(String buildStatus = 'STARTED') {
     //  recipientProviders: [developers(), requestor()],
       to: 'narendra@planetc.net,suryanarayana@planetc.net,mounikakondeti@planetc.net')
 
+}
 }
