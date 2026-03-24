@@ -1,0 +1,5 @@
+  properties([
+    parameters([
+        string(description: 'Not Default branch??,Then Enter branch name', name: 'Branch', trim: true)
+            ])
+        ])
