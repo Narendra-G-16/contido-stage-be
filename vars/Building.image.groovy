@@ -1,4 +1,4 @@
-def call() {
+def call(String repo_uri, String reponame, String tagname) {
 container("aws-cont"){
     stage("retrieve ecr token"){
             sh """
