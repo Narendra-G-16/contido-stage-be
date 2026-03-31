@@ -1,6 +1,6 @@
 def call(String branch) {
 
-    notifyBuild('STARTED')
+    notifications('STARTED')
 
     stage('checkout-code') {
 		
