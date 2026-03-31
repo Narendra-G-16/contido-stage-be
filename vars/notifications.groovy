@@ -1,4 +1,4 @@
-def notifyBuild call(String buildStatus = 'STARTED') {
+def notifyBuild (String buildStatus = 'STARTED') {
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
  // def jobUserId, jobUserName
 //get user id and name of the build started user.
